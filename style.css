@@ -1,5 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body
 {
     direction: rtl;
     text-align: center;
+}
+
+p
+{
+    font-size: 3em;
+}
+
+#answer
+{
+    direction: ltr;
+    font-size: 5em;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat();
+}
+
+#fizz
+{
+    width: 1em;
+}
+
+#buzz
+{
+    width: .7em;
+}
+
+h1
+{
+    font-size: 9em;
+    color: chocolate;
+}
+
+.number
+{
+    border: 3px red solid;
 }
