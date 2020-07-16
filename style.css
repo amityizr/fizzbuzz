@@ -27,7 +27,7 @@ p
 
 #fizz
 {
-    width: 1em;
+    width: .9em;
 }
 
 #buzz
@@ -43,5 +43,12 @@ h1
 
 .number
 {
-    border: 3px red solid;
+    border: 2px rgb(179, 179, 179) solid;
+    background-color: lightgray;
+}
+
+img
+{
+    position: relative;
+    top: 15px;
 }
